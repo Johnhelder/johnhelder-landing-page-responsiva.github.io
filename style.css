@@ -62,3 +62,31 @@ margin: .5em;
   font-size: 1.375em; /* 22 / 16 */
   margin: 1.375em;
 }
+
+.top-content-subtitle{
+  color: #a87bb7;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.middle-content{
+  padding: 2em;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.middle-content-title{
+  font-size: 1.25em;
+  color: #652e78;
+  text-transform: uppercase;
+}
+
+.middle-content p{
+  line-height: 1.5em;
+  color: #222222;
+}
+
+.middle-content span[class^=icon]{
+  font-size: 3.5em;
+  color: #652e78;
+}
