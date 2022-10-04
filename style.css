@@ -6,6 +6,14 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Oxygen";
 }
 
+.top-header{
+  text-align: center;
+}
+
+top-header-logo{
+margin: .5em;
+}
+
 .top-nav{
   background-color: #612674;
   text-align: center;
