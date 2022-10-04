@@ -1,0 +1,29 @@
+html{
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Oxygen";
+}
+
+.top-nav{
+  background-color: #612674;
+  text-align: center;
+}
+
+.top-nav ul{
+  margin: 0px;
+  padding: 1em 0px;
+  list-style: none;
+}
+
+.top-nav a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+}
+
+.top-nav a:hover{
+  background-color: #7c3792;
+}
