@@ -192,3 +192,11 @@ margin: .5em;
     float: right;
   }
 }
+
+@media screen and (min-width: 62.5em) {
+  .top-content{
+    background: #521a66 url(../images/bg_topo_1198x670.jpg);
+    height: 15em;
+    padding-top: 15em;
+  }
+}
