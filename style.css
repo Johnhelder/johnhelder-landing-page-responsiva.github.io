@@ -143,3 +143,22 @@ margin: .5em;
   text-decoration: none;
   color: #ffffff;
 }
+
+@media screen and (min-width: 48.75em){
+  .top-header-logo{
+    float: left;
+  }
+  .top-nav{
+    background: transparent;
+    float: right;
+  }
+  .top-nav- ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-content{
+    background: #521a66;
+    color: white;
+  }
+}
