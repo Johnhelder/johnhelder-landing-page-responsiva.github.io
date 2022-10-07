@@ -6,6 +6,12 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Oxygen";
 }
 
+.clearfix::after, .row::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .button{
   display: inline-block;
   padding: .9em 2.5em;
@@ -151,14 +157,38 @@ margin: .5em;
   .top-nav{
     background: transparent;
     float: right;
+    padding-top: 21px;
   }
   .top-nav- ul{
     margin: 0;
     padding: 0;
   }
+.top-nav li{
+  display: inline-block;
+}
 
+.top-nav a{
+  color: #713a84;
+}
+
+.top-nav a:hover{
+  background: #e7d9fc;
+}
   .top-content{
     background: #521a66;
     color: white;
+  }
+  .top-content-title, .top-content-subtitle{
+    color: #ffffff;
+  }
+
+  .col-1_4{
+    width: 44%;
+    margin: 3%;
+    float: left;
+  }
+
+  .main-content-article .button{
+    float: right;
   }
 }
