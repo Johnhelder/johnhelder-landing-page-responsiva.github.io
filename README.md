@@ -10,4 +10,4 @@
   ## Tecnologias utilizadas para criar a página
   * HTML
   * CSS
-<h3>Para ver página<h3>(https://johnhelder.github.io/)
+ 
